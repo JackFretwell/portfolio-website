@@ -1,0 +1,41 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(202, 224, 202);
+    font-family: "Monospace", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+}
+
+.content-wrapper{
+    padding-top:180px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-line{
+    display:flex;
+    justify-content: space-between;
+    gap:30px;
+}
+
+.hero{
+    display:flex-start;
+    gap:4px;
+    align-items: start;
+    flex-direction: column;
+    
+}
+
+.sidebar-left{
+    display:flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+}
