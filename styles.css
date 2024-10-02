@@ -6,7 +6,23 @@ body{
 
 header{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+.logo{
+    padding-left:50px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.header-links{
+    padding-right: 30px;
+    display:flex;
+    gap:40px;
 }
 
 .content-wrapper{
@@ -34,6 +50,13 @@ header{
 .sidebar-left{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    width: 65px;
+}
+
+.sidebar-left a{
+    display: inline-block;
+    margin: 5px;
 }
 
 .sidebar-left img{
