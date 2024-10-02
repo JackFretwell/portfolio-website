@@ -36,6 +36,11 @@ header{
     flex-direction: column;
 }
 
+.sidebar-left img{
+    height: auto;
+    width: 50px;
+}
+
 h1{
     font-size: 50px;
 }
