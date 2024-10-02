@@ -22,6 +22,7 @@ header a{
 .header-links{
     padding-right: 30px;
     display:flex;
+    align-items: center;
     gap:40px;
 }
 
@@ -44,7 +45,9 @@ header a{
     gap:4px;
     align-items: start;
     flex-direction: column;
-    
+    padding:15px;
+    background-color: rgb(142, 211, 159);
+    border-radius: 25px;
 }
 
 .sidebar-left{
