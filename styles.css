@@ -34,6 +34,17 @@ header a{
     align-items: center;
 }
 
+.technical-info{
+    display:flex;
+    gap:4px;
+    align-items: start;
+    flex-direction: column;
+    padding:15px;
+    background-color: rgb(104, 216, 132);
+    border-radius: 25px;
+    width:833px;
+}
+
 .top-line{
     display:flex;
     justify-content: space-between;
@@ -41,13 +52,15 @@ header a{
 }
 
 .hero{
-    display:flex-start;
+    display:flex;
     gap:4px;
     align-items: start;
     flex-direction: column;
     padding:15px;
     background-color: rgb(142, 211, 159);
     border-radius: 25px;
+    margin-bottom: 20px;
+    width: 833px;
 }
 
 .sidebar-left{
@@ -69,4 +82,14 @@ header a{
 
 h1{
     font-size: 50px;
+}
+
+.skills{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.skills div{
+    display:flex;
+    flex-direction: column;
 }
