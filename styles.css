@@ -9,6 +9,10 @@ header{
     justify-content: space-between;
     font-size: 20px;
     font-weight: bold;    
+    border-radius: 25px;
+    margin:10px;
+    padding-top:10px;
+    background-color: rgb(158, 216, 161);
 }
 
 .logo{
@@ -85,8 +89,13 @@ h1{
 }
 
 .skills{
+    width:833px;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.skills h3{
+    text-decoration: underline;
 }
 
 .skills div{
