@@ -31,7 +31,7 @@ header a{
 }
 
 .content-wrapper{
-    padding-top:180px;
+    padding-top:125px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +46,8 @@ header a{
     padding:15px;
     background-color: rgb(104, 216, 132);
     border-radius: 25px;
-    width:833px;
+    width: 90%;
+    max-width:833px;
 }
 
 .top-line{
@@ -64,14 +65,19 @@ header a{
     background-color: rgb(142, 211, 159);
     border-radius: 25px;
     margin-bottom: 20px;
-    width: 833px;
+    width:90%;
+    max-width: 833px;
 }
 
 .sidebar-left{
+    position: fixed;
+    top:770px;
+    left:10px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     width: 65px;
+    z-index: 1000;
 }
 
 .sidebar-left a{
@@ -89,10 +95,11 @@ h1{
 }
 
 .skills{
-    width:833px;
+    max-width:833px;
     display:flex;
     justify-content: center;
-    gap: 80px;
+    gap: clamp(10px, 5vw, 80px);
+    
 }
 
 .skills h3{
