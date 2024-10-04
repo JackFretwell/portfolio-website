@@ -12,6 +12,7 @@ header{
     border-radius: 25px;
     margin:10px;
     padding-top:10px;
+    padding-bottom: 5px;
     background-color: rgb(158, 216, 161);
 }
 
@@ -36,18 +37,19 @@ header a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .technical-info{
     display:flex;
     gap:4px;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
     padding:15px;
     background-color: rgb(104, 216, 132);
     border-radius: 25px;
-    width: 90%;
-    max-width:833px;
+    width: 55%;
+    max-width:100%;
 }
 
 .top-line{
@@ -61,17 +63,24 @@ header a{
     gap:4px;
     align-items: start;
     flex-direction: column;
-    padding:15px;
+    padding-left: 25px;
+    padding-top:15px;
+    padding-bottom: 15px;
     background-color: rgb(142, 211, 159);
     border-radius: 25px;
     margin-bottom: 20px;
-    width:90%;
-    max-width: 833px;
+    width:55%;
+    max-width: 100%;
+}
+
+.hero img{
+    padding-left:25px;
+    padding-top:17px;
 }
 
 .sidebar-left{
     position: fixed;
-    top:770px;
+    top:700px;
     left:10px;
     display:flex;
     flex-direction: column;
@@ -94,11 +103,15 @@ h1{
     font-size: 50px;
 }
 
+.technical-info h1{
+    align-self:flex-start;
+    padding-left: 20px;
+}
+
 .skills{
     max-width:833px;
     display:flex;
-    justify-content: center;
-    gap: clamp(10px, 5vw, 80px);
+    gap: clamp(5px, 5vw, 80px);
     
 }
 
