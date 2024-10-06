@@ -133,32 +133,39 @@ h1{
     flex-direction: column;
 }
 
+.cont-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
 .project-section{
     display:flex;
     flex-direction: column;
+    justify-content: start;
     background-color: rgb(158, 216, 161);
-    padding-left: 50px;
     border-radius: 25px;
-    width:90%;
+    width:85%;
     max-width: 100%;
     padding:10px;
-    margin:75px;
-    margin-top:50px;
+
 }
 
 .project-section h1{
     justify-content: center;
+    padding-left: 20px;
 }
 
-.projects-content-wrapper{
+.projects-box{
     display:flex;
     background-color:rgb(104, 216, 132);
     width: 450px;
     height: 450px;
     border-radius: 25px;
-    align-items: start;
     justify-content: center;
-    padding-top:20px;
+    padding:20px;
+    margin: 20px;
+    
 }
 
 .phonetic-alph-project{
