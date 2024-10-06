@@ -38,7 +38,7 @@ head a:visited{
 }
 
 .content-wrapper{
-    padding-top:125px;
+    padding-top:70px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -143,7 +143,7 @@ h1{
     display:flex;
     flex-direction: column;
     justify-content: start;
-    background-color: rgb(158, 216, 161);
+    background-color: rgb(142, 211, 159);
     border-radius: 25px;
     width:85%;
     max-width: 100%;
@@ -158,7 +158,7 @@ h1{
 
 .projects-box{
     display:flex;
-    background-color:rgb(104, 216, 132);
+    background-color:rgb(202, 224, 202);
     width: 450px;
     height: 450px;
     border-radius: 25px;
@@ -177,4 +177,45 @@ h1{
 
 .phonetic-alph-project p{
     max-width: 400px;
+}
+
+.link-box{
+    color: black;
+    text-decoration: none;
+    width:200px;
+}
+.link-box:visited{
+    color:black;
+    text-decoration: none;
+}
+.video{
+    display:flex;
+    justify-content: center;
+    padding-top:50px;
+}
+
+.info-wrapper{
+    border-radius:25px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(142, 211, 159);
+    max-width: 100%;
+    width:80%;
+    padding-top:30px;
+    padding-bottom:30px;
+    
+}
+
+.information{
+    display:flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
 }
