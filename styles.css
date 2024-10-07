@@ -43,7 +43,14 @@ head a:visited{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.hero p{
+    width: 750px;
+}
+
+.content-wrapper img{
+    padding-right:100px;
 }
 
 .technical-info{
@@ -62,6 +69,7 @@ head a:visited{
     display:flex;
     justify-content: space-between;
     gap:30px;
+    position: relative;
 }
 
 .hero{
@@ -77,11 +85,16 @@ head a:visited{
     margin-bottom: 20px;
     width:55%;
     max-width: 100%;
+    z-index: 0;  
 }
 
 .hero img{
     padding-left:25px;
     padding-top:17px;
+    position: absolute;
+    top: -20px;
+    right: -320px;
+    z-index: 1;                       
 }
 
 .sidebar-left{
@@ -168,11 +181,22 @@ h1{
     
 }
 
+.top-line-2{
+    display:flex;
+}
+
+.top-line-2 img{
+    position: absolute;
+    top: 220px;
+    right: 140px;
+}
+
 .phonetic-alph-project{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 0;                       
 }
 
 .phonetic-alph-project p{
