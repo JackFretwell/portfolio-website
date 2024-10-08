@@ -46,7 +46,7 @@ head a:visited{
 }
 
 .hero p{
-    width: 750px;
+    width:79%;
 }
 
 .content-wrapper img{
@@ -69,7 +69,6 @@ head a:visited{
     display:flex;
     justify-content: space-between;
     gap:30px;
-    position: relative;
 }
 
 .hero{
@@ -86,15 +85,14 @@ head a:visited{
     width:55%;
     max-width: 100%;
     z-index: 0;  
+    flex-wrap: wrap;
 }
 
 .hero img{
-    padding-left:25px;
-    padding-top:17px;
     position: absolute;
-    top: -20px;
-    right: -320px;
-    z-index: 1;                       
+    top: 220px;
+    right: 300px;
+                    
 }
 
 .sidebar-left{
@@ -242,4 +240,14 @@ h1{
 .test{
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 768px) { /* Adjust this breakpoint as needed */
+    .hero img {
+        display: none; /* Hide the image */
+    }
+
+    .top-line-2 img{
+        display:none;
+    }
 }
